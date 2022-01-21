@@ -54,28 +54,12 @@ lua << EOF
 	-- Setup lspconfig.
 	local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
 	local nvim_lsp = require('lspconfig')
-	local servers = {'pylsp', 'html', 'cssls', 'clangd', 'eslint', 'solargraph'}
+	local servers = {'pylsp', 'html', 'cssls', 'clangd', 'eslint', 'solargraph', 'jdtls'}
 	for _,lsp in ipairs(servers) do
 		nvim_lsp[lsp].setup{
 			capabilities = capabilities
 		}
 	end
-
-	-- lua indent line
-	vim.opt.list = true
-	vim.opt.listchars:append("space:⋅")
-	vim.opt.listchars:append("eol:↴")
-	require("indent_blankline").setup {
-	space_char_blankline = " "
-	}
-
-	-- lua line
-	--require'lualine'.setup{
-	--options = {
-	--	section_separators = { left = '', right = ''},
-	--	component_separators = { left = '', right = ''}
-	--	}
-	--}
 
 	-- treesitter config
 	require'nvim-treesitter.configs'.setup{

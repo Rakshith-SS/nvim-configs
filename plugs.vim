@@ -2,9 +2,8 @@ call plug#begin()
 
 
 " Colorschemes
-"Plug 'morhetz/gruvbox'
+Plug 'morhetz/gruvbox'
 Plug 'rktjmp/lush.nvim'
-Plug 'ellisonleao/gruvbox.nvim'
 Plug 'tamelion/neovim-molokai'
 Plug 'sainnhe/sonokai'
 Plug 'altercation/vim-colors-solarized'
@@ -17,11 +16,10 @@ Plug 'ulwlu/elly.vim'
 Plug 'joshdick/onedark.vim'
 Plug 'sainnhe/gruvbox-material'
 Plug 'phanviet/vim-monokai-pro'
-Plug 'arcticicestudio/nord-vim'
-Plug 'rose-pine/neovim'
+Plug 'mhartington/oceanic-next'
+Plug 'sonph/onehalf', {'rtp': 'vim/'}
 " End of Colorschemes
 
-"Plug 'nvim-lualine/lualine.nvim'
 Plug 'startup-nvim/startup.nvim'      " startup Nvim
 Plug 'vim-airline/vim-airline'        " Status line
 Plug 'akinsho/bufferline.nvim'        " Buffer line
@@ -39,7 +37,11 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'dense-analysis/ale'
 Plug 'williamboman/nvim-lsp-installer'
-Plug 'lukas-reineke/indent-blankline.nvim'
+
+
+" jdtls lsp
+Plug 'mfussenegger/nvim-jdtls'
+
 
 " Nvim Completion
 Plug 'hrsh7th/cmp-nvim-lsp'
@@ -71,4 +73,13 @@ Plug 'windwp/nvim-autopairs'
 
 " Vim Move
 Plug 'matze/vim-move'
+
+" Git
+Plug 'airblade/vim-gitgutter'
+
+" Gutentags
+Plug  'ludovicchabant/vim-gutentags'
+
+" TagBar
+Plug 'preservim/tagbar'
 call plug#end()

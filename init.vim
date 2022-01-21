@@ -12,12 +12,13 @@ set noswapfile
 set completeopt-=preview
 set completeopt+=noinsert
 set colorcolumn=120
-set wildmenu
 set termguicolors
 set numberwidth=8
-set autochdir
+" set autochdir
 set nohls
-" set guifont=FiraCode\ NF:h12
+set splitbelow
+set splitright
+set guifont=JetBrainsMono\ Nerd\ Font\ Mono:h10.5
 
 let mapleader="-"
 
@@ -25,7 +26,7 @@ source $HOME/.config/nvim/plugs.vim
 source $HOME/.config/nvim/lua_config.vim
 source $HOME/.config/nvim/lspremaps.vim
 source $HOME/.config/nvim/remaps.vim
-colorscheme gruvbox-material
+colorscheme gruvbox
 
 let g:user_emmet_leader_key=',' " use , for the emmet plugin
 let g:mkdp_browser = 'firefox'

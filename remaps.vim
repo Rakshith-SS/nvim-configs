@@ -47,6 +47,5 @@ vnoremap <left> <Nop>
 vnoremap <Up> <Nop>
 vnoremap <Right> <Nop>
 vnoremap <Down> <Nop>
-" End of remaps
-
-
+nnoremap <leader>tt :TagbarToggle<CR>
+"End of remaps

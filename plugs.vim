@@ -18,6 +18,7 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'mhartington/oceanic-next'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
+Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 " End of Colorschemes
 
 Plug 'startup-nvim/startup.nvim'      " startup Nvim
@@ -67,9 +68,6 @@ Plug 'prettier/vim-prettier', {
 
 " Vim Surround
 Plug 'tpope/vim-surround'
-
-" Autopairs
-Plug 'windwp/nvim-autopairs'
 
 " Vim Move
 Plug 'matze/vim-move'

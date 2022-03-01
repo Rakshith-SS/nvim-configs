@@ -34,7 +34,7 @@ nnoremap <leader>cs <cmd>Telescope colorscheme<cr>
 nnoremap <leader>p :Prettier<cr>
 nnoremap n nzzzv
 nnoremap N Nzzzv
-nnoremap <leader>s :w<CR>
+nnoremap <leader>w :w<CR>
 inoremap <left> <Nop>
 inoremap <Up> <Nop>
 inoremap <Right> <Nop>

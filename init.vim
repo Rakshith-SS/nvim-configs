@@ -14,6 +14,7 @@ set completeopt+=noinsert
 set colorcolumn=120
 set termguicolors
 set numberwidth=8
+set expandtab
 " set autochdir
 set nohls
 set splitbelow
@@ -62,7 +63,8 @@ let g:ale_fixers = {
 \   'javascript': ['prettier'],
 \   'html': ['prettier'],
 \   'css': ['prettier'],
-\   'json': ['prettier']
+\   'json': ['prettier'],
+\   'python': ['prettier']
 \}
 let g:ale_linters_explicit = 1
 let g:ale_fix_on_save = 1

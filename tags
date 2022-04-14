@@ -8,7 +8,7 @@
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
-!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+!_TAG_PROGRAM_VERSION	5.9.0	//
 <C-c>	remaps.vim	/^nnoremap <C-c> :cclose<CR>$/;"	m
 <C-d>	remaps.vim	/^inoremap <C-d> <Esc>ddO$/;"	m
 <C-j>	remaps.vim	/^nnoremap <C-j> :cNext<CR>$/;"	m
@@ -34,8 +34,8 @@
 <leader>k	remaps.vim	/^nnoremap <leader>k :lprevious<CR>$/;"	m
 <leader>l	remaps.vim	/^nnoremap <leader>l :lopen<CR>$/;"	m
 <leader>p	remaps.vim	/^nnoremap <leader>p :Prettier<cr>$/;"	m
-<leader>s	remaps.vim	/^nnoremap <leader>s :w<CR>$/;"	m
 <leader>tt	remaps.vim	/^nnoremap <leader>tt :TagbarToggle<CR>$/;"	m
+<leader>w	remaps.vim	/^nnoremap <leader>w :w<CR>$/;"	m
 <left>	remaps.vim	/^inoremap <left> <Nop>$/;"	m
 <left>	remaps.vim	/^nnoremap <left> <Nop>$/;"	m
 <left>	remaps.vim	/^vnoremap <left> <Nop>$/;"	m
@@ -50,10 +50,13 @@
 <space>k	remaps.vim	/^nnoremap <space>k <C-W>k$/;"	m
 <space>l	remaps.vim	/^nnoremap <space>l <C-W>l$/;"	m
 <tab>	remaps.vim	/^nnoremap <tab> :bnext<CR>$/;"	m
+About	README.md	/^## About$/;"	s	chapter:nvim-configs
 K	lspremaps.vim	/^nnoremap <silent> K  :lua vim.lsp.buf.hover()<CR>$/;"	m
 MarkdownFile	init.vim	/^function! MarkdownFile()$/;"	f
 N	remaps.vim	/^nnoremap N Nzzzv$/;"	m
 Noderun	init.vim	/^function! Noderun()$/;"	f
+Plugins Used	README.md	/^## Plugins Used$/;"	s	chapter:nvim-configs
+Previews	README.md	/^## Previews$/;"	s	chapter:nvim-configs
 [d	lspremaps.vim	/^nnoremap <silent> [d :lua vim.lsp.diagnostic.goto_prev()<CR>$/;"	m
 ]d	lspremaps.vim	/^nnoremap <silent> ]d :lua vim.lsp.diagnostic.goto_next()<CR>$/;"	m
 g:UltiSnipsExpandTrigger	init.vim	/^let g:UltiSnipsExpandTrigger="<tab>"$/;"	v

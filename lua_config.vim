@@ -74,5 +74,4 @@ lua << EOF
 	-- Startup Nvim
 	require("startup").setup({theme = "dashboard"}) -- put theme name here
 
-	require("nvim-autopairs").setup{}
 EOF

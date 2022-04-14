@@ -19,6 +19,8 @@ Plug 'phanviet/vim-monokai-pro'
 Plug 'mhartington/oceanic-next'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'nanotech/jellybeans.vim'
 " End of Colorschemes
 
 Plug 'startup-nvim/startup.nvim'      " startup Nvim
@@ -34,8 +36,8 @@ Plug 'kyazdani42/nvim-web-devicons'   " Icons
 Plug 'nvim-lua/plenary.nvim'          " Telescope
 Plug 'nvim-telescope/telescope.nvim'  "
 Plug 'nvim-lua/popup.nvim'
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'dense-analysis/ale'
 Plug 'williamboman/nvim-lsp-installer'
 

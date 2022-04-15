@@ -16,7 +16,7 @@ Config for my neovim setup, includes plugins, LSP and my preferred key maps
 
 ## Plugins Used
 
-Awesome plugins used in my workflow, that I am thankful for.
+Awesome plugins used in my workflow, for which I am thankful for.
 
 + [Nerd Tree](https://github.com/preservim/nerdtree) - File Explorer
 + [Git Gutter](https://github.com/airblade/vim-gitgutter) - Show diff status of a git file

@@ -1,3 +1,5 @@
 List of things to be done
 
-+ Write a script that automates your config install
+[ ] Write a script that automates your config install
+[x] Port to lua
+[ ] Add Screenshots to the readme file
